@@ -15,6 +15,7 @@ $(call inherit-product, device/xiaomi/toco/device.mk)
 $(call inherit-product, vendor/cherish/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_toco
